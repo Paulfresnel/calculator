@@ -1,0 +1,131 @@
+#calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border: 5px lightgrey solid;
+    outline: 1px black solid;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #021f3a;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px lightgray solid;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.cell:hover {
+    background-color: white;
+    border: 1px green solid;
+}
+
+#calculator:hover {
+    transform: scale(1.05);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.user-btn:hover {
+    transform: scale(1.05);
+    background-color: white;
+    border: 2px black solid;
+}
+
+#visualization {
+    display: flex;
+    justify-content: right;
+    border: 1px lightgray solid;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    font-size: 1.3rem;
+}
+
+#visualization p {
+    margin-right: 20px;
+}
+
+.user-btn {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightgreen;
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+
+}
+
+#calculate {
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: aquamarine;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: #60518b;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.grey {
+    background-color:grey;
+    border:1px white solid;
+    color:white;
+}
+
+.grey:hover {
+    color:black;
+}
